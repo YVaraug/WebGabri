@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gabriel Chichón PT — Entrenador personal en Madrid</title>
+    <meta name="description" content="Entrenador personal en Chamberí (Madrid). Fuerza, recomposición corporal y rendimiento. Presencial, online y a domicilio." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      // Tailwind small tweaks (optional)
+      tailwind.config = { theme: { extend: {} } }
+    </script>
+  </head>
+  <body class="bg-white text-neutral-900">
+    <!-- Header -->
+    <header class="sticky top-0 z-40 bg-white/80 backdrop-blur border-b">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <div class="flex items-center gap-3">
+            <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-neutral-900 text-white font-semibold">GC</span>
+            <div class="leading-tight">
+              <p class="font-semibold">Gabriel Chichón PT</p>
+              <p class="text-xs text-neutral-500">Entrenador personal en Madrid (Chamberí)</p>
+            </div>
+          </div>
+          <nav class="hidden md:flex items-center gap-2 text-sm">
+            <a href="#servicios" class="px-3 py-2 rounded-lg hover:bg-neutral-100 hover:text-neutral-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-300 transition">Servicios</a>
+            <a href="#objetivos" class="px-3 py-2 rounded-lg hover:bg-neutral-100 hover:text-neutral-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-300 transition">Objetivos</a>
+            <a href="#planes" class="px-3 py-2 rounded-lg hover:bg-neutral-100 hover:text-neutral-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-300 transition">Planes online</a>
+            <a href="#contacto" class="px-3 py-2 rounded-lg hover:bg-neutral-100 hover:text-neutral-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-300 transition">Contacto</a>
+            <a href="https://wa.me/34679485469?text=Hola%20Gabriel%2C%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20entrenamiento%20personal" target="_blank" rel="noreferrer" class="inline-flex items-center rounded-xl border px-3 py-1.5 hover:bg-neutral-900 hover:text-white transition">WhatsApp</a>
+            <a href="tel:+34679485469" class="inline-flex items-center rounded-xl bg-neutral-900 text-white px-3 py-1.5 hover:opacity-90 transition">Llámanos</a>
+          </nav>
+          <button id="menuBtn" class="md:hidden p-2" aria-label="Abrir menú">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path d="M3.75 5.25h16.5v1.5H3.75zm0 6h16.5v1.5H3.75zm0 6h16.5v1.5H3.75z"/></svg>
+          </button>
+        </div>
+      </div>
+      <div id="mobileNav" class="hidden md:hidden border-t">
+        <div class="px-4 py-3 grid gap-3">
+          <a href="#servicios" class="text-left">Servicios</a>
+          <a href="#objetivos" class="text-left">Objetivos</a>
+          <a href="#planes" class="text-left">Planes online</a>
+          <a href="#contacto" class="text-left">Contacto</a>
+          <a href="https://wa.me/34679485469?text=Hola%20Gabriel%2C%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20entrenamiento%20personal" target="_blank" rel="noreferrer" class="inline-flex items-center justify-center rounded-xl border px-3 py-2">WhatsApp</a>
+          <a href="tel:+34679485469" class="inline-flex items-center justify-center rounded-xl bg-neutral-900 text-white px-3 py-2">Llámanos</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative overflow-hidden">
+      <div class="absolute inset-0 -z-10 opacity-10 [background:radial-gradient(600px_circle_at_20%_20%,#000_0,transparent_40%),radial-gradient(600px_circle_at_80%_0%,#000_0,transparent_40%)]"></div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16 lg:py-24 grid md:grid-cols-2 gap-8 md:gap-10 items-center">
+        <div>
+          <h1 class="text-4xl/tight md:text-5xl/tight font-extrabold">Entrenador personal en <span class="underline decoration-wavy">Chamberí</span> (Madrid)</h1>
+          <p class="mt-4 text-lg text-neutral-700 max-w-prose">
+            Planes de fuerza, recomposición corporal y rendimiento deportivo. Sesiones presenciales, online y a domicilio. Seguimiento mensual y nutrición adaptada a tus objetivos.
+          </p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="https://wa.me/34679485469?text=Hola%20Gabriel%2C%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20entrenamiento%20personal" target="_blank" rel="noreferrer" class="inline-flex items-center rounded-2xl bg-neutral-900 text-white px-5 py-3 text-sm font-semibold shadow hover:translate-y-[1px] transition">
+              Reserva por WhatsApp
+            </a>
+            <a href="#planes" class="inline-flex items-center rounded-2xl border px-5 py-3 text-sm font-semibold hover:bg-neutral-100 transition">Ver planes online</a>
+            <a href="tel:+34679485469" class="inline-flex items-center rounded-2xl border px-5 py-3 text-sm font-semibold hover:bg-neutral-100 transition">+34 679 485 469</a>
+          </div>
+          <dl class="mt-6 grid grid-cols-2 gap-4 text-sm text-neutral-600">
+            <div>
+              <dt class="font-semibold">Horario</dt>
+              <dd>Lunes a viernes 7:00 – 22:00 · Sábados 10:00 – 14:00</dd>
+            </div>
+            <div>
+              <dt class="font-semibold">Zona</dt>
+              <dd>Chamberí, Madrid · Metro Gregorio Marañón / Nuevos Ministerios</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="relative">
+          <img src="./imagenes/imagen-principal.jpg" alt="Imagen principal" class="w-full object-cover rounded-3xl aspect-video md:aspect-[4/3]" />
+          <div class="absolute -bottom-6 -right-6 bg-white border rounded-2xl shadow p-4 w-64">
+            <p class="text-sm">+100 clientes han mejorado su fuerza y composición corporal*</p>
+            <p class="text-[10px] mt-1 text-neutral-500">*Sustituir por datos reales / testimonios.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Método -->
+    <section class="py-14 border-t" id="metodo">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl md:text-3xl font-bold">Tu método, paso a paso</h2>
+        <p class="mt-2 text-neutral-700">Evaluación inicial, planificación realista y revisión mensual para asegurar progreso sin lesiones.</p>
+        <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="rounded-2xl border p-5 shadow-sm bg-white">
+            <p class="text-sm font-semibold">1) Evaluación</p>
+            <p class="mt-1 text-sm text-neutral-700">Historia, objetivos y nivel. Medimos básicos (movilidad, fuerza, %grasa).</p>
+          </div>
+          <div class="rounded-2xl border p-5 shadow-sm bg-white">
+            <p class="text-sm font-semibold">2) Plan a medida</p>
+            <p class="mt-1 text-sm text-neutral-700">Rutinas de fuerza y cardio adaptadas a tu agenda y material disponible.</p>
+          </div>
+          <div class="rounded-2xl border p-5 shadow-sm bg-white">
+            <p class="text-sm font-semibold">3) Nutrición</p>
+            <p class="mt-1 text-sm text-neutral-700">Pautas sencillas y sostenibles. Sin dietas imposibles.</p>
+          </div>
+          <div class="rounded-2xl border p-5 shadow-sm bg-white">
+            <p class="text-sm font-semibold">4) Seguimiento</p>
+            <p class="mt-1 text-sm text-neutral-700">Ajustes mensuales. Soporte por WhatsApp en horario laboral.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Objetivos -->
+    <section class="py-14 border-t" id="objetivos">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl md:text-3xl font-bold">¿Cuál es tu objetivo?</h2>
+        <div class="mt-8 grid md:grid-cols-3 gap-6">
+          <article class="rounded-2xl border bg-white shadow-sm p-5">
+            <img src="./imagenes/imagen-ganar-masa-muscular.jpg" alt="Imagen, ganar masa muscular" class="w-full object-cover rounded-xl aspect-video" />
+            <h3 class="mt-3 font-semibold">Ganar masa muscular</h3>
+            <p class="mt-1 text-sm text-neutral-700">Programas de fuerza y sobrecarga progresiva. Técnica cuidada y recuperación.</p>
+            <a href="https://wa.me/34679485469" target="_blank" rel="noreferrer" class="mt-4 inline-flex text-sm font-semibold underline">Quiero este objetivo →</a>
+          </article>
+          <article class="rounded-2xl border bg-white shadow-sm p-5">
+            <img src="./imagenes/imagen-moldear-tu-cuerpo.jpg" alt="Imagen, moldear tu cuerpo" class="w-full object-cover rounded-xl aspect-video" />
+            <h3 class="mt-3 font-semibold">Moldear tu cuerpo</h3>
+            <p class="mt-1 text-sm text-neutral-700">Recomposición corporal: perder grasa y mantener/ganar músculo con fuerza + nutrición.</p>
+            <a href="https://wa.me/34679485469" target="_blank" rel="noreferrer" class="mt-4 inline-flex text-sm font-semibold underline">Quiero este objetivo →</a>
+          </article>
+          <article class="rounded-2xl border bg-white shadow-sm p-5">
+            <img src="./imagenes/imagen-rendir-mas-en-tu-deporte.jpg" alt="Imagen, rendir más en tu deporte" class="w-full object-cover rounded-xl aspect-video" />
+            <h3 class="mt-3 font-semibold">Rendir más en tu deporte</h3>
+            <p class="mt-1 text-sm text-neutral-700">Fuerza específica + prevención de lesiones para correr, fútbol, pádel, etc.</p>
+            <a href="https://wa.me/34679485469" target="_blank" rel="noreferrer" class="mt-4 inline-flex text-sm font-semibold underline">Quiero este objetivo →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section class="py-14 border-t" id="servicios">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl md:text-3xl font-bold">Modalidades de entrenamiento</h2>
+        <p class="mt-2 text-neutral-700">Elige cómo te viene mejor: presencial, online, dúo, grupos, aire libre o a domicilio.</p>
+        <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="rounded-2xl border bg-white p-5 shadow-sm">
+            <img src="./imagenes/imagen-entrenamiento-personal.jpg" alt="Imagen, entrenamiento personal" class="w-full object-cover rounded-xl aspect-video" />
+            <h3 class="mt-3 font-semibold">Entrenamiento personal</h3>
+            <p class="mt-1 text-sm text-neutral-700">Sesiones 1:1 en espacio acondicionado o instalaciones deportivas.</p>
+            <a href="https://wa.me/34679485469" target="_blank" rel="noreferrer" class="mt-4 inline-flex text-sm font-semibold underline">Solicitar información →</a>
+          </div>
+          <div class="rounded-2xl border bg-white p-5 shadow-sm">
+            <img src="./imagenes/imagen-entrenamiento-online.jpg" alt="Imagen, entrenamiento online" class="w-full object-cover rounded-xl aspect-video" />
+            <h3 class="mt-3 font-semibold">Entrenamiento online</h3>
+            <p class="mt-1 text-sm text-neutral-700">Plan trimestral con revisiones mensuales y soporte por WhatsApp.</p>
+            <a href="https://wa.me/34679485469" target="_blank" rel="noreferrer" class="mt-4 inline-flex text-sm font-semibold underline">Solicitar información →</a>
+          </div>
+          <div class="rounded-2xl border bg-white p-5 shadow-sm">
+            <img src="./imagenes/imagen-entrenamiento-duo.jpg" alt="Imagen, entrenamiento dúo" class="w-full object-cover rounded-xl aspect-video" />
+            <h3 class="mt-3 font-semibold">Entrenamiento dúo</h3>
+            <p class="mt-1 text-sm text-neutral-700">Entrena con tu pareja o un amigo. Dinámico y motivador.</p>
+            <a href="https://wa.me/34679485469" target="_blank" rel="noreferrer" class="mt-4 inline-flex text-sm font-semibold underline">Solicitar información →</a>
+          </div>
+          <div class="rounded-2xl border bg-white p-5 shadow-sm">
+            <img src="./imagenes/imagen-entrenamiento-al-aire-libre.jpg" alt="Imagen, entrenamiento al aire libre" class="w-full object-cover rounded-xl aspect-video" />
+            <h3 class="mt-3 font-semibold">Entrenamiento al aire libre</h3>
+            <p class="mt-1 text-sm text-neutral-700">Respira y entrena en parques de la zona de Chamberí.</p>
+            <a href="https://wa.me/34679485469" target="_blank" rel="noreferrer" class="mt-4 inline-flex text-sm font-semibold underline">Solicitar información →</a>
+          </div>
+          <div class="rounded-2xl border bg-white p-5 shadow-sm">
+            <img src="./imagenes/imagen-entrenamiento-grupal.jpg" alt="Imagen, entrenamiento grupal" class="w-full object-cover rounded-xl aspect-video" />
+            <h3 class="mt-3 font-semibold">Entrenamiento grupal</h3>
+            <p class="mt-1 text-sm text-neutral-700">Grupos reducidos para socializar y abaratar coste.</p>
+            <a href="https://wa.me/34679485469" target="_blank" rel="noreferrer" class="mt-4 inline-flex text-sm font-semibold underline">Solicitar información →</a>
+          </div>
+          <div class="rounded-2xl border bg-white p-5 shadow-sm">
+            <img src="./imagenes/imagen-entrenamiento-a-domicilio.jpg" alt="Imagen, entrenamiento a domicilio" class="w-full object-cover rounded-xl aspect-video" />
+            <h3 class="mt-3 font-semibold">Entrenamiento a domicilio</h3>
+            <p class="mt-1 text-sm text-neutral-700">Si prefieres entrenar en casa sin desplazamientos.</p>
+            <a href="https://wa.me/34679485469" target="_blank" rel="noreferrer" class="mt-4 inline-flex text-sm font-semibold underline">Solicitar información →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Planes -->
+    <section class="py-14 border-t" id="planes">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl md:text-3xl font-bold">Planes online (trimestrales)</h2>
+        <p class="mt-2 text-neutral-700">Programas personalizados con revisiones y soporte en horario laboral.</p>
+        <div class="mt-8 grid md:grid-cols-3 gap-6">
+          <div class="rounded-3xl border bg-white p-6 shadow-sm flex flex-col">
+            <h3 class="font-semibold text-lg">Plan Nutrición Básico</h3>
+            <p class="mt-1 text-3xl font-extrabold">180 € <span class="text-sm font-normal text-neutral-500">/ trimestre</span></p>
+            <ul class="mt-4 space-y-2 text-sm text-neutral-700 list-disc pl-5">
+              <li>Cuestionario y valoración nutricional</li>
+              <li>Plan nutricional personalizado con menú</li>
+              <li>Control de progresión mensual</li>
+              <li>Seguimiento por WhatsApp (L-V 9:00–20:00)</li>
+            </ul>
+            <a href="https://wa.me/34679485469" target="_blank" rel="noreferrer" class="mt-6 inline-flex justify-center rounded-xl bg-neutral-900 text-white px-4 py-2 text-sm font-semibold">Quiero este plan</a>
+            <p class="mt-2 text-xs text-neutral-500">*Precios orientativos: confirma disponibilidad y condiciones.</p>
+          </div>
+          <div class="rounded-3xl border bg-white p-6 shadow-sm flex flex-col">
+            <h3 class="font-semibold text-lg">Plan Premium</h3>
+            <p class="mt-1 text-3xl font-extrabold">180 € <span class="text-sm font-normal text-neutral-500">/ trimestre</span></p>
+            <ul class="mt-4 space-y-2 text-sm text-neutral-700 list-disc pl-5">
+              <li>Ejercicios de fuerza y cardio</li>
+              <li>2 revisiones de rutina/mes</li>
+              <li>1 revisión online</li>
+              <li>Seguimiento por WhatsApp (L-V 9:00–20:00)</li>
+            </ul>
+            <a href="https://wa.me/34679485469" target="_blank" rel="noreferrer" class="mt-6 inline-flex justify-center rounded-xl bg-neutral-900 text-white px-4 py-2 text-sm font-semibold">Quiero este plan</a>
+            <p class="mt-2 text-xs text-neutral-500">*Precios orientativos: confirma disponibilidad y condiciones.</p>
+          </div>
+          <div class="rounded-3xl border bg-white p-6 shadow-sm flex flex-col">
+            <h3 class="font-semibold text-lg">Plan Nutrición Deportiva</h3>
+            <p class="mt-1 text-3xl font-extrabold">300 € <span class="text-sm font-normal text-neutral-500">/ trimestre</span></p>
+            <ul class="mt-4 space-y-2 text-sm text-neutral-700 list-disc pl-5">
+              <li>Fuerza + cardio + nutrición</li>
+              <li>2 revisiones de rutina/mes</li>
+              <li>1 revisión online</li>
+              <li>Seguimiento por WhatsApp (L-V 9:00–20:00)</li>
+            </ul>
+            <a href="https://wa.me/34679485469" target="_blank" rel="noreferrer" class="mt-6 inline-flex justify-center rounded-xl bg-neutral-900 text-white px-4 py-2 text-sm font-semibold">Quiero este plan</a>
+            <p class="mt-2 text-xs text-neutral-500">*Precios orientativos: confirma disponibilidad y condiciones.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="py-14 border-t" id="resultados">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl md:text-3xl font-bold">Resultados y testimonios</h2>
+        <p class="mt-2 text-neutral-700">Añade fotos reales de antes/después y reseñas con nombre.</p>
+        <div class="mt-8 grid md:grid-cols-3 gap-6">
+          <figure class="rounded-2xl border bg-white p-5 shadow-sm">
+            <img src="./imagenes/imagen-entrenamiento-grupal.jpg" alt="Testimonio 1" class="w-full object-cover rounded-xl aspect-[4/3]" />
+            <figcaption class="mt-3 text-sm text-neutral-700">“En 12 semanas bajé 6 kg sin perder fuerza. Lo mejor: el seguimiento.” — Marta R.</figcaption>
+          </figure>
+          <figure class="rounded-2xl border bg-white p-5 shadow-sm">
+            <img src="./imagenes/imagen-entrenamiento-al-aire-libre.jpg" alt="Testimonio 2" class="w-full object-cover rounded-xl aspect-[4/3]" />
+            <figcaption class="mt-3 text-sm text-neutral-700">“Mejoré mi 10K sin molestias y gané fuerza en piernas.” — Jorge P.</figcaption>
+          </figure>
+          <figure class="rounded-2xl border bg-white p-5 shadow-sm">
+            <img src="./imagenes/imagen-entrenamiento-personal.jpg" alt="Testimonio 3" class="w-full object-cover rounded-xl aspect-[4/3]" />
+            <figcaption class="mt-3 text-sm text-neutral-700">“Volví a entrenar tras lesión con un plan realista y seguro.” — Laura G.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQs -->
+    <section class="py-14 border-t" id="faqs">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl md:text-3xl font-bold">Preguntas frecuentes</h2>
+        <div class="mt-6 grid md:grid-cols-2 gap-6 text-sm">
+          <div class="rounded-2xl border p-5 bg-white">
+            <p class="font-semibold">¿La primera sesión incluye valoración?</p>
+            <p class="mt-1 text-neutral-700">Sí: revisamos objetivos, historial y nivel, y definimos el plan inicial.</p>
+          </div>
+          <div class="rounded-2xl border p-5 bg-white">
+            <p class="font-semibold">¿Puedo entrenar en mi gimnasio?</p>
+            <p class="mt-1 text-neutral-700">Sí, siempre que el centro permita entrenadores externos o uses modalidad online/a domicilio.</p>
+          </div>
+          <div class="rounded-2xl border p-5 bg-white">
+            <p class="font-semibold">¿Necesito material en casa?</p>
+            <p class="mt-1 text-neutral-700">Con 2–3 mancuernas, goma y banco se puede avanzar mucho. Ajustamos a lo que tengas.</p>
+          </div>
+          <div class="rounded-2xl border p-5 bg-white">
+            <p class="font-semibold">¿Cómo funcionan los pagos?</p>
+            <p class="mt-1 text-neutral-700">Por trimestres en planes online y por bono/sesión en presencial. Pide tu presupuesto.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="py-14 border-t" id="contacto">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-10 items-start">
+          <div>
+            <h2 class="text-2xl md:text-3xl font-bold">Contacto</h2>
+            <p class="mt-2 text-neutral-700">Rellena el formulario o escríbenos por WhatsApp. Te responderemos en horario laboral.</p>
+            <dl class="mt-6 grid grid-cols-1 gap-3 text-sm">
+              <div>
+                <dt class="font-semibold">Teléfono</dt>
+                <dd><a class="underline" href="tel:+34679485469">+34 679 485 469</a></dd>
+              </div>
+              <div>
+                <dt class="font-semibold">Email</dt>
+                <dd><a class="underline" href="mailto:gabrielchichon@gmail.com">gabrielchichon@gmail.com</a></dd>
+              </div>
+              <div>
+                <dt class="font-semibold">Zona</dt>
+                <dd>Chamberí, Madrid · Metro Gregorio Marañón / Nuevos Ministerios</dd>
+              </div>
+              <div>
+                <dt class="font-semibold">Horario</dt>
+                <dd>Lunes a viernes 7:00 – 22:00 · Sábados 10:00 – 14:00</dd>
+              </div>
+              <div>
+                <dt class="font-semibold">Redes</dt>
+                <dd class="flex gap-3">
+                  <a class="underline" href="https://www.instagram.com/gcpersonaltrainer1/" target="_blank" rel="noreferrer">Instagram</a>
+                  <a class="underline" href="https://www.youtube.com/channel/UC8nuK1dkhk6EfsmDw4Nxg7A" target="_blank" rel="noreferrer">YouTube</a>
+                </dd>
+              </div>
+            </dl>
+          </div>
+          <form class="rounded-3xl border bg-white p-6 shadow-sm" onsubmit="event.preventDefault(); alert('Demo: configura un endpoint real (p.ej., Formspree) o usa el botón de WhatsApp.');">
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div>
+                <label class="text-sm font-medium">Nombre</label>
+                <input required type="text" class="mt-1 w-full rounded-xl border px-3 py-2" placeholder="Tu nombre" />
+              </div>
+              <div>
+                <label class="text-sm font-medium">Teléfono</label>
+                <input required type="tel" class="mt-1 w-full rounded-xl border px-3 py-2" placeholder="Tu móvil" />
+              </div>
+              <div class="sm:col-span-2">
+                <label class="text-sm font-medium">Email</label>
+                <input type="email" class="mt-1 w-full rounded-xl border px-3 py-2" placeholder="tucorreo@ejemplo.com" />
+              </div>
+              <div>
+                <label class="text-sm font-medium">Objetivo</label>
+                <select class="mt-1 w-full rounded-xl border px-3 py-2">
+                  <option>Ganar masa muscular</option>
+                  <option>Moldear cuerpo</option>
+                  <option>Rendir más en un deporte</option>
+                </select>
+              </div>
+              <div>
+                <label class="text-sm font-medium">Modalidad</label>
+                <select class="mt-1 w-full rounded-xl border px-3 py-2">
+                  <option>Personal</option>
+                  <option>Dúo</option>
+                  <option>Grupal</option>
+                  <option>Online</option>
+                  <option>Aire libre</option>
+                  <option>A domicilio</option>
+                </select>
+              </div>
+              <div class="sm:col-span-2">
+                <label class="text-sm font-medium">Mensaje</label>
+                <textarea class="mt-1 w-full rounded-xl border px-3 py-2 min-h-28" placeholder="Cuéntame brevemente tu situación"></textarea>
+              </div>
+              <div class="sm:col-span-2 flex flex-wrap gap-3">
+                <button type="submit" class="inline-flex items-center rounded-xl bg-neutral-900 text-white px-5 py-3 text-sm font-semibold">Enviar solicitud</button>
+                <a href="https://wa.me/34679485469" target="_blank" rel="noreferrer" class="inline-flex items-center rounded-xl border px-5 py-3 text-sm font-semibold">WhatsApp directo</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 text-sm text-neutral-600">
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-3">
+          <p>© 2025 Gabriel Chichón PT. Todos los derechos reservados.</p>
+          <div class="flex gap-4">
+            <a class="underline" href="#faqs">FAQs</a>
+            <a class="underline" href="#planes">Planes</a>
+            <a class="underline" href="#contacto">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Sticky WhatsApp -->
+    <a
+      href="https://wa.me/34679485469"
+      target="_blank"
+      rel="noreferrer"
+      class="fixed bottom-4 right-4 md:bottom-5 md:right-5 inline-flex items-center justify-center h-12 w-12 md:h-14 md:w-14 rounded-full shadow-xl border bg-white hover:bg-green-50 transition"
+      aria-label="Abrir WhatsApp"
+      title="Escribir por WhatsApp"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-7 h-7">
+        <path d="M12 .5a11.4 11.4 0 0 0-9.64 17.61L1.5 23l4.99-1.31A11.5 11.5 0 1 0 12 .5Zm6.74 16.76a9.38 9.38 0 0 1-13.08 0 9.23 9.23 0 0 1-1.99-10.2A9.39 9.39 0 0 1 12 2.62 9.25 9.25 0 0 1 21.38 12a9.23 9.23 0 0 1-2.64 5.26ZM17 14.8c-.29-.15-1.73-.86-2-1-.27-.1-.47-.15-.67.15-.2.29-.77 1-.95 1.21-.17.2-.35.22-.64.08-.29-.15-1.23-.45-2.35-1.44-.87-.76-1.46-1.7-1.63-2-.17-.29-.02-.45.13-.6.14-.14.29-.35.44-.52.14-.18.19-.29.29-.49.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.2-.24-.6-.49-.5-.67-.5h-.57c-.19 0-.5.07-.77.37-.26.29-1 .97-1 2.37 0 1.4 1.02 2.75 1.16 2.94.15.2 2.01 3.2 4.87 4.36 2.86 1.16 2.86.77 3.37.73.51-.03 1.73-.7 1.98-1.38.24-.67.24-1.24.17-1.38-.08-.15-.26-.22-.55-.37Z" />
+      </svg>
+    </a>
+
+    <script>
+      // Mobile menu toggle
+      document.getElementById('menuBtn').addEventListener('click', () => {
+        document.getElementById('mobileNav').classList.toggle('hidden');
+      });
+    </script>
+  </body>
+</html>
